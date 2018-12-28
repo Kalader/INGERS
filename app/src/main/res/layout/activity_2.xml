@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/style_street"
+    android:padding="55dp"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="Tipologia problema"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="15"
+        android:hint="inserisci email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/typeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp">
+
+        <RadioButton
+            android:id="@+id/P1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:text="Segnalazione di area verde" />
+
+        <RadioButton
+            android:id="@+id/P2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rifiuti e pulizia stradale" />
+
+        <RadioButton
+            android:id="@+id/P3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strade e marciapiedi" />
+
+        <RadioButton
+            android:id="@+id/P4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Segnaletica e semafori" />
+
+        <RadioButton
+            android:id="@+id/P5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Illuminazione pubblica" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/indietro"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/typeGroup"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/avanti"
+        android:text="Indietro" />
+
+    <Button
+        android:id="@+id/avanti"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/typeGroup"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="5dp"
+        android:text="Continua" />
+
+</RelativeLayout>

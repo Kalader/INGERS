@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "529383988170",
+    "firebase_url": "https://civicsense-7935b.firebaseio.com",
+    "project_id": "civicsense-7935b",
+    "storage_bucket": "civicsense-7935b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529383988170:android:04538fd8744955c2",
+        "android_client_info": {
+          "package_name": "com.example.civicsense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529383988170-ir2f3d2ek72onl5ebaeube7n7jj9tq1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.civicsense",
+            "certificate_hash": "ca06721d78050e92505445d68dd03dfef2a7e120"
+          }
+        },
+        {
+          "client_id": "529383988170-7b88hnjrjca3he64mpj2vhttdb9ts8u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqC7Mk40Y77WtxF6t9PZN4Z-PSi-KkzJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529383988170-7b88hnjrjca3he64mpj2vhttdb9ts8u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
